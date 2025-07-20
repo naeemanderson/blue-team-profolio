@@ -1,0 +1,36 @@
+TryHackMe Lab: Pyramid of Pain
+
+## Overview
+
+This lab explores the **Pyramid of Pain**, a framework that helps defenders understand how impactful different types of threat intelligence indicators are when detected and blocked.
+
+The higher up the pyramid, the harder it is for attackers to adapt â€” meaning better defense and greater disruption of their operations.
+
+---
+
+## Pyramid of Pain Summary
+
+| Level | Indicator Type | Example | Difficulty for Attacker | Impact for Defender |
+|-------|-------------------------------------|----------------------------------|--------------------------|----------------------|
+| 1 | Hash Values | MD5 hash of malware | Very easy to change | Low |
+| 2 | IP Addresses | Known malicious IP | Easy to rotate | Lowâ€“Medium |
+| 3 | Domain Names | phishing-login[.]com | Moderate effort | Medium |
+| 4 | Network Artifacts | Unusual protocol patterns | Moderate | Medium |
+| 5 | Host Artifacts | Registry changes, mutex names | Harder to mask | High |
+| 6 | Tools | Mimikatz, Cobalt Strike | Hard to replace | High |
+| 7 | Tactics, Techniques & Procedures | Lateral movement using PSExec | Very hard to change | Very High |
+
+---
+
+## Key Takeaways
+
+- Not all indicators of compromise (IOCs) are equal in value.
+- Defenders should aim to detect and respond to **TTPs** and **tools**, not just IPs and hashes.
+- Behavioral-based detections are more powerful than static indicators alone.
+
+---
+
+## Tools Used
+
+- TryHackMe Platform
+- MITRE ATT&CK Framework (for reference and enrichment)

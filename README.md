@@ -6,7 +6,7 @@ Each folder contains notes and writeups from labs completed on platforms like Tr
 
 ## ✅ Completed Labs:
 - Pyramid of Pain
-- Phishing Email Analysis
+- Phishing Email Analysis https://github.com/naeemanderson/blue-team-profolio/tree/main/phishing-emails-1
 - Intro to SIEM
 - MITRE ATT&CK
 
